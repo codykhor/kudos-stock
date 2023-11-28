@@ -1,38 +1,100 @@
 .App {
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Pro', serif;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 40px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style: none; 
+  text-transform: uppercase;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 600;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.cta a {
+  color: white;
+  text-decoration: none;
+}
+
+.cta a:hover {
+  color: #457b9d;
+}
+
+.searchbutton {
+  margin-left: 10px;
+}
+
+.error a {
+  color:black;
+  text-decoration: none;
+}
+
+.error a:hover {
+  color: white;
+}
+
+.tagline {
+  font-size: 17px;
+}
+
+.auth-link {
+  cursor: pointer;
+  color: black;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-stock-links a {
+  text-decoration: none;
+  color: #457b9d;
+}
+
+.footer-stock-links a:hover {
+  color: grey;
+}
+
+.footer-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #457b9d;
+}
+
+.footer-links a:hover {
+  color: grey;
+}
+
+.active {
+  font-weight: bold;
 }
