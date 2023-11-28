@@ -1,6 +1,6 @@
 # Getting Started
 
-![kudos-full-logo](https://github.com/codykhor/kudos-stock/assets/70186145/e49a49ec-bccc-4b69-b26b-5a6d554d9e0b)
+![kudos-full-logo](https://github.com/codykhor/kudos-stock/assets/70186145/41ff788f-8de4-4c75-8833-230544671383)
 
 Kudos, a React web application that allows users to view and analyse stock data from the Nasdaq-100 index stock market. The app allows users to check daily stock price or previous price history from a particular stock of their choice. Data from the web app is generated from multiple endpoints from well-established online APIs.
 
