@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 
 // to get daily quote of chosen symbol
+
+// change to FMP API
 async function getQuote(symbolChosen) {
   if (symbolChosen === "") {
     return null;
