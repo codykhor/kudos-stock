@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started
+
+Kudos, a React web application that allows users to view and analyse stock data from the Nasdaq-100 index stock market. The app allows users to check daily stock price or previous price history from a particular stock of their choice. Data from the web app is generated from multiple endpoints from well-established online APIs.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
